@@ -23,7 +23,7 @@ Local environment to test out neo4J
   * verify container is ready
     * view log by clicking on the container on Docker Desktop GUI
       * wait for the last line "Started" 
-      ```
+```
 Changed password for user 'neo4j'.
 Fetching versions.json for Plugin 'apoc' from https://neo4j-contrib.github.io/neo4j-apoc-procedures/versions.json
 Installing Plugin 'apoc' from https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/4.4.0.1/apoc-4.4.0.1-all.jar to /plugins/apoc.jar
@@ -43,7 +43,7 @@ Applying default values for plugin graph-data-science to neo4j.conf
 2022-01-05 13:52:00.888+0000 INFO  name: system
 2022-01-05 13:52:00.889+0000 INFO  creationDate: 2022-01-05T08:42:10.578Z
 2022-01-05 13:52:00.889+0000 INFO  Started.
-      ```
+```
 
 * Access Neo4J browser
   * [http://localhost:7474](http://localhost:7474)
